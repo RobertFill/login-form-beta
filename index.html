@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+</head>
+
+
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="./images/favicon.ico">
+
+<body>
+    <header>
+        <img class="logo" src="./images/logo.svg" alt="img" title="logo">
+    </header>
+    <div class="container">
+        <form action="#">
+            <div class="arrow-logo">
+                <img src="./images/log-in.svg" alt="icon">
+            </div>
+            <div class="title">
+                <h1>Faça seu login</h1>
+                <p>Entre com suas informações de cadastro.</p>
+            </div>
+            <div class="container2">
+                <div class="box">
+                    <label for="email">E-mail</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+                </div>
+                <div class="box2">
+                    <label for="password">Senha</label>
+                    <br>
+                    <input type="password" id="password" name="password" placeholder="Digite sua Senha" required>
+                    <i class="eye">
+                        <img src="./images/eye.svg" alt="icon" onclick=>
+                    </i>
+                </div>
+                <div class="onClick"> <!-----Label-custom----->
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                    <label for="checkbox">Lembre-me</label>
+                    <button type="button">
+                        <a href="#">Esqueci minha senha</a>
+                    </button>
+                </div>
+                <div class="button-submit">
+                    <button type="submit" class="btn">
+                        entrar
+                    </button>
+                    <p>
+                        Não tem uma conta?
+                        <a href="#">Registre-se</a>
+                    </p>
+                </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
